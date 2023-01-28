@@ -1,81 +1,121 @@
-body {
+ul {
+    list-style-type: none;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
 }
+
 .header {
-    color: white;
+    padding: 10px 0px;
     background-color: #1F2937;
+    display: flex;
+    border: 1px solid black;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+
+}
+.secondary-text {
+    margin-bottom: 10px 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-left {
+    width: 100px;
+}
+.header-right {
+    width: 100px;
+}
+.header-content {
     border: 1px solid blue;
     display: flex;
-    justify-content: space-around;
-}
-
-.header-left {
-    display: flex;
-}
-
-.container {
-    display: flex;
     flex-direction: column;
+    flex: 1;
+}
+.main-text {
+    margin-bottom: 10px;
+}
+.header-top {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-middle>* {
+    flex: 1;
+}
+.header-middle {
+    display: flex;
+    justify-content: space-between;
 }
 
-.place-holder {
-    border: 2px solid red;
+.wrap {
+    width: 300px;
     display: flex;
+    flex-wrap: wrap;
+}
+.placeholder {
+    background-color: gray;
+    display: flex;
+    border: 1px solid blue;
     justify-content: center;
     align-items: center;
 }
-
-.right-links {
+.placeholder>* {
     border: 1px solid blue;
-    justify-content: center;
-}
-
-ul {
-    /* padding: 0; */
-    margin: 0;
-    display: flex;
-    list-style-type: none;
-    gap: 10px;
-}
-
-a {
-    list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.logo {
-    font-weight: bold;
-    font-size: 24px ;
-    color: #F9FAF8;
-}
-
 .content-1 {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
-
 .grid {
     display: flex;
+    gap: 10px;
 }
-
-.square {
-    height: 50px;
-    width: 50px;
-    border: 2px solid blue;
-}
-
 .grid-item {
+    border: 1px solid brown;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid pink;
+}
+.grid-item-text {
+    max-width: 100px;
+    text-align: center;
+}
+.content-1-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+.square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
 }
 
 .content-2 {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    align-items: center;
 }
 
+.quote-author {
+    display: flex;
+}
