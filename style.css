@@ -79,3 +79,42 @@ button {
     width: 48%;
 }
 
+.random-information {
+    border: 1px solid red;
+    padding: 2% 10% 5%;
+    height: 30%;
+
+    gap: 10%;
+    align-items: center;
+}
+
+.grid-photo-with-text {
+    height: 100%;
+    width: 80%;
+
+    gap: 5%;
+    justify-content: center;
+}
+
+.square {
+    height: 80%;
+    width: 60%;
+
+    border: 1px solid #3882F6;
+    border-radius: 10%;
+    flex: 1 1 auto;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.photo-with-text {
+    align-items: center;
+}
+
+.align-text-center {
+    text-align: center;
+}
