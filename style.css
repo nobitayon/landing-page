@@ -4,14 +4,12 @@ html,body {
 }
 
 .container {
-    /* border: 1px solid red; */
 
     display: flex;
 }
 
 .dir-column {
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .auto-right {
@@ -31,6 +29,10 @@ ul.container {
     background-color: gray;
 }
 
+.right {
+    justify-content: flex-end;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -38,12 +40,13 @@ ul.container {
 }
 
 .header {
-    /* border: 1px solid green; */
+    
     background-color: #1F2937;
     color: white;   
 
-    height: 20%;
+    height: 30%;
     padding: 0 10%;
+    padding-bottom: 5%;
 }
 
 .space-between {
@@ -71,3 +74,8 @@ button {
     font-weight:extra-bold;
     background-color: #3882F6;
 }
+
+.left,.right {
+    width: 48%;
+}
+
